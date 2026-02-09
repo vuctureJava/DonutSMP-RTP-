@@ -1,7 +1,6 @@
-# 🌳 DonutSMP RTP Replica by vucture
+# 🌳 DonutSMP RTP Replica by vucture (Note: This plugin needs to be customized and Requirements must be met before using it, or else it will not work! Dont install this Skript unless you know what you are doing.)
 
 This is a simple and intuitive **Random Teleport** made with **Skript** for Minecraft servers. It allows players to open a GUI and quickly RTP without using multiple commands.
-Note: This plugin needs to be customized and Requirements must be met before using it, or else it will not work! Dont install this Skript unless you know what you are doing.
 Created by **vucture**
 
 ---
