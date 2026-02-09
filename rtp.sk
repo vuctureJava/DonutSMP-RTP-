@@ -1,0 +1,72 @@
+command /rtp:
+    trigger:
+        set {_menu} to chest inventory with 3 rows named "ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
+        set slot 13 of {_menu} to grass block named "&aᴏᴠᴇʀᴡᴏʀʟᴅ"
+        set slot 11 of {_menu} to end stone named "&aᴇɴᴅ"
+        set slot 15 of {_menu} to netherrack named "&aɴᴇᴛʜᴇʀ"
+        open {_menu} to player
+
+
+on inventory click:
+    if name of event-inventory is "ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ":
+        cancel event
+
+        if clicked slot is 13:
+            play sound "ui.button.click" with volume 100 and pitch 1 to player
+            close player's inventory
+            send "&7Teleporting in &95s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &94s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &93s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &92s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &91s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            execute player command "betterrtp world world"
+
+        else if clicked slot is 11:
+            play sound "ui.button.click" with volume 100 and pitch 1 to player
+            close player's inventory
+            send "&7Teleporting in &95s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &94s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &93s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &92s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &91s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            execute player command "betterrtp world world_the_end END_MIDLANDS"
+
+        else if clicked slot is 15:
+            play sound "ui.button.click" with volume 100 and pitch 1 to player
+            close player's inventory
+            send "&7Teleporting in &95s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &94s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &93s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &92s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            send "&7Teleporting in &91s" to player
+            play sound "ui.button.click" with volume 100 with pitch 1 to player
+            wait 1 seconds
+            execute player command "betterrtp world world_nether"
